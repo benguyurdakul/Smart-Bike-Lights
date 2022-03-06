@@ -4,9 +4,16 @@ An arduino project
 # TÜRKÇE
 ------
 
+## Devre Şeması 
+![alt text](https://github.com/benguyurdakul/Smart-Bike-Lights/blob/main/circuit%20diagram%202.png)
+
+İkinci bir gösterim:
+![alt text](https://github.com/benguyurdakul/Smart-Bike-Lights/blob/main/circuit%20diagram%201.pdf)
 
 # ENGLISH
 ------
+
+You can check circuit diagram above.
 
 # FRANÇAIS
 ------
