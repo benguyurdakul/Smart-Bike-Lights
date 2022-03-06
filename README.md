@@ -13,6 +13,21 @@ Gece araç kullanırken, ileriyi görebilmesi ve diğer sürücüler tarafından
  
 Son olarak, diğer bisiklet lambaları genellikle sadece hareket halindeyken yanar ve hızla söner. Visionnaire size akıllı bir sistem sunar, Visionnaire size daha düşük maliyetle güvenlik vaat eder. Geceleri bisiklet sürmek artık tehlikeli olmayacak.
 
+## Proje Adımları
+- **Arduino UNO** kullandım. 
+
+-  Bisikletçinin fren yapıp yapmadığını kontrol etmek için bir **düğme** ve bir **interrupt()** işlevi kullandım. 
+
+- Tekerleğe iki **mıknatıs** ve bir **manyetik sensör** yerleştirdim. 
+
+- Bir **millis()** işleviyle, her 2 saniyede bir mıknatıs geçişlerinin sayısını ölçtüm. 
+
+- Bisiklet hareket ederken beyaz ışık yanmaya başlar. 
+
+- Bisiklet yavaşlarsa, kırmızı ışık azalan parlaklık ile yanar ve söner. 
+
+- Bisiklet durursa, durduktan iki saniye sonra söner.
+
 ## Devre Şeması 
 ![alt text](https://github.com/benguyurdakul/Smart-Bike-Lights/blob/main/circuit%20diagram%202.png)
 
@@ -20,6 +35,11 @@ Son olarak, diğer bisiklet lambaları genellikle sadece hareket halindeyken yan
 ![alt text](https://github.com/benguyurdakul/Smart-Bike-Lights/blob/main/circuit%20diagram%201.jpg)
 
 ## Bisiklet üzerindeki hali
+![alt text](https://github.com/benguyurdakul/Smart-Bike-Lights/blob/main/visionnaire%201.jpg)
+![alt text](https://github.com/benguyurdakul/Smart-Bike-Lights/blob/main/visionnaire%202.jpg)
+![alt text](https://github.com/benguyurdakul/Smart-Bike-Lights/blob/main/visionnaire%203.jpg)
+
+
 
 # ENGLISH
 ------
@@ -33,7 +53,22 @@ When driving at night, one of the lights must be on during movement so that it c
  
 Finally, other bike lights usually only come on when in motion and go out quickly. Visionnaire offers you a smart system, Visionnaire promises you security at a lower cost. Cycling at night will no longer be dangerous.
 
-You can check circuit diagram above.
+You can check circuit diagram and pictures on bike above.
+
+## Steps
+- I used **Arduino UNO**.
+
+- I used a **button** and an **interrupt()** function to check if the biker is braking.
+
+- I placed two **magnets** and a **magnetic sensor** in the wheel.
+
+- With a **millis()** function, I measured the number of magnet passes every 2 seconds.
+
+- The white light starts to turn on when the bike is moving.
+
+- If the bike slows down, the red light will turn on and off with decreasing brightness.
+
+- If the bike stops, it goes out two seconds after it stops.
 
 # FRANÇAIS
 ------
